@@ -1,0 +1,16 @@
+The path to the file in Windows10 is:
+C:\Users\domin\AppData\Local\Programs\Microsoft VS Code\resources\app\extensions\html\syntaxes\
+
+open "html.tmLanguage.json" in VSCode
+
+CTRL+F search for javascript
+
+Add a space and paste "paperscript\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |"
+just before: 
+"x-javascript\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t  |"
+with no extra space to respect the structure
+
+Save, close and reload VScode
+
+
+NB: "let" and "const" variables are not supported. Use "var" instead.
